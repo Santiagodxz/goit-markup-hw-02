@@ -5,57 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav>
-        <a href="">Web Studio</a>
-        <ul>
-          <li><a href="">Estudio</a></li>
-          <li><a href="">Portafolio</a></li>
-          <li><a href="">Contacto</a></li>
+        <a class="logo" href="./index.html">Web Studio</a>
+        <ul class="nav-bar">
+          <li><a class="link-nav" href="./index.html">Estudio</a></li>
+          <li><a class="link-nav" href="./portafolio.html">Portafolio</a></li>
+          <li><a class="link-nav" href="">Contacto</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+525555296000">+52 55 55296000</a></li>
-      </ul>
+        <ul class="nav-bar">
+        <li><a class="link-nav" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link-nav" href="tel:+525555296000">+52 55 55296000</a></li>
+        </ul>
     </header>
     <main>
-      <!--Seccion Inicio-->
-      <section>
-        <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button type="button">Solicite nuestro servicio</button>
+      <!--Seccion Studio-->
+      <section class="studio"> 
+        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+        <button class="button-studio" type="button">Request our service</button>
       </section>
-      <!--Seccion Acerca de-->
-      <section>
+      <!--Seccion About-->
+      <section class="about">
         <ul>
           <li>
-            <h3>ATENCIÓN A LOS DETALLES</h3>
-            Nos adentramos en todos los detalles y procesos de su negocio, para
-            así desarrollar una solución a su medida.
+            <h3>ATTENTION TO DETAILS</h3>
+            <p>We go into all the details and processes of your business to develop a customized solution.</p>
           </li>
           <li>
-            <h3>PUNTUALIDAD</h3>
-            Con nosotros, usted puede sentirse seguro y protegido. Un principio
-            importante de la empresa: respetar su tiempo y respetar los plazos
-            acordados.
+            <h3>PUNCTUALITY</h3>
+            <p>With us, you can feel safe and secure. An important principle of the company: respect your time and respect the agreed deadlines.</p>
           </li>
           <li>
-            <h3>PLANIFICACIÓN</h3>
-            Usted podrá observar y participar en cada fase del desarrollo y
-            aplicacion de soluciones.
+            <h3>PLANNING</h3>
+            <p>You will be able to observe and participate in every phase of solution development and implementation.</p>
           </li>
           <li>
-            <h3>TECNOLOGÍA MODERNA</h3>
-            Usamos herramientas innovadoras para resolver las tareas asignadas.
-            Es hora de simplificar los procesos laborales.
+            <h3>MODERN TECHNOLOGIES</h3>
+            <p>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
           </li>
         </ul>
       </section>
-      <!--Seccion Nosotros-->
-      <section>
-        <h2>A Qué nos dedicamos</h2>
+      <!--Seccion what we do-->
+      <section class="what-we-do">
+        <h2 class="wwd-title">What we do</h2>
         <ul>
           <li>
             <img
@@ -80,9 +80,9 @@
           </li>
         </ul>
       </section>
-      <!--Seccion Equipo-->
-      <section>
-        <h2>Nuestro equipo</h2>
+      <!--Seccion team-->
+      <section class="team">
+        <h2 class="team-title">Our team</h2>
         <ul>
           <li>
             <img
@@ -91,7 +91,7 @@
               alt="Hombre de gafas sonriendo alegre"
             />
             <h3>Andrés Cubo</h3>
-            <p>Diseñador de Productos</p>
+            <p>Product Designer </p>
           </li>
           <li>
             <img
@@ -100,7 +100,7 @@
               alt="Mujer rubia de gafas sonriendo"
             />
             <h3>Carla Palacios</h3>
-            <p>Desarrolladora Frontend</p>
+            <p>Frontend Developer</p>
           </li>
           <li>
             <img src="images/team3.jpg" width="200" alt="Joven sonriendo" />
@@ -114,18 +114,22 @@
               alt="Hombre de gafas sonriendo"
             />
             <h3>Pablo Mijangos</h3>
-            <p>Diseñador IU</p>
+            <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="">WebStudio</a>
+    <footer class="footer">
+      <a class="logo" href="">WebStudio</a>
       <address>
-        <ul>
-          <li>Calz. Ticomán 500, ciudad de Mexico, CDMX, México</li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+525555296000">+52 55 55296000</a></li>
+        <ul class="footer-list">
+          <li>695 Park Ave, New York, NY 10065,<br> United States</li>
+          <li>
+            <a class="link-nav link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="link-nav link-tel" href="tel:+525555296000"><p>+52 55 55296000</a>
+          </li>
         </ul>
       </address>
     </footer>
